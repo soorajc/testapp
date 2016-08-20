@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 3, from LayoutIt!</title>
+    <meta name="description" content="Source code generated using layoutit.com">
+    <meta name="author" content="LayoutIt!">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+  </head>
+  <body>
+<div class="container-fluid" style="background-color:#43A047">
+	<div class="row" style="padding-top:10px">
+		<div class="col-md-12">
+			<nav class="navbar navbar-default" role="navigation">
+				<div class="navbar-header">
+
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						 <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+					</button> <a class="navbar-brand" href="#">Shop&Earn</a>
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#"><span class="label label-primary">Enter the name of product</span></a>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" id="searchitem">
+						</div>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="https://docs.google.com/forms/d/e/1FAIpQLSfNaDFMOTgp3d9iTTap5RAKxEdemx_uv9S8_Jo2mvrTg0PMBQ/viewform?embedded=true"><span class="label label-success">Get Free Recharge</span></a>
+						</li>
+            <li>
+							<a href="#"><span class="label label-primary">Shopping Trends</span></a>
+						</li>
+					</ul>
+				</div>
+
+			</nav>
+			<div class="row">
+				<div class="col-md-4" >
+					<div class="thumbnail">
+						<img alt="Bootstrap Thumbnail First" src="./assets/amazon.png" width="100" height="100" style="cursor:pointer" onclick="OpenInNewTab(0);">
+						<div class="caption">
+							<h3>
+								Amazon
+							</h3>
+							<p>
+                <button class="btn btn-warning" onclick="dailyDeals(0)">Daily Deals</button>
+                <button class="btn btn-danger" onclick="newProducts(0)">New Products</button>
+                <button class="btn btn-info" onclick="liveUpdates('amazon')">Live Updates</button>
+							</p>
+              <marquee onmouseover="this.stop();" onmouseout="this.start();"><div id="amazon"></div></marquee>
+		          <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FAmazonIN&width=200&layout=box_count&action=like&size=large&show_faces=false&share=false&height=65&appId" width="200" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="Bootstrap Thumbnail Second" src="./assets/ebay.png" width="100" height="100" style="cursor:pointer" onclick="OpenInNewTab(1);">
+						<div class="caption">
+							<h3>
+								Ebay
+							</h3>
+							<p>
+                <button class="btn btn-warning" onclick="dailyDeals(1)">Daily Deals</button>
+                <button class="btn btn-danger" onclick="newProducts(1)">New Products</button>
+                <button class="btn btn-info" onclick="liveUpdates('ebay')">Live Updates</button>
+							</p>
+              <marquee onmouseover="this.stop();" onmouseout="this.start();"><div id="ebay"></div></marquee>
+							<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FeBay%2F&width=200&layout=box_count&action=like&size=large&show_faces=false&share=false&height=65&appId" width="200" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="Bootstrap Thumbnail Third" src="./assets/flipkart.png" width="100" height="100" style="cursor:pointer" onclick="OpenInNewTab(2);">
+						<div class="caption">
+							<h3>
+								Flipkart
+							</h3>
+							<p>
+                <button class="btn btn-warning" onclick="dailyDeals(2)">Daily Deals</button>
+                <button class="btn btn-danger" onclick="newProducts(2)">New Products</button>
+                <button class="btn btn-info" onclick="liveUpdates('flipkart')">Live Updates</button>
+							</p>
+              <marquee onmouseover="this.stop();" onmouseout="this.start();"><div id="flipkart"></div></marquee>
+							<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fflipkart%2F&width=200&layout=box_count&action=like&size=large&show_faces=false&share=false&height=65&appId" width="200" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="Bootstrap Thumbnail First" src="./assets/snapdeal.png" width="100" height="100" style="cursor:pointer" onclick="OpenInNewTab(3);">
+						<div class="caption">
+							<h3>
+								Snapdeal
+							</h3>
+							<p>
+                <button class="btn btn-warning" onclick="dailyDeals(3)">Daily Deals</button>
+                <button class="btn btn-danger" onclick="newProducts(3)">New Products</button>
+                <button class="btn btn-info" onclick="liveUpdates('snapdeal')">Live Updates</button>
+							</p>
+              <marquee onmouseover="this.stop();" onmouseout="this.start();"><div id="snapdeal"></div></marquee>
+							<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FSnapdeal%2F&width=200&layout=box_count&action=like&size=large&show_faces=false&share=false&height=65&appId" width="200" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="Bootstrap Thumbnail Second" src="./assets/paytm.png"  width="100" height="100" style="cursor:pointer" onclick="OpenInNewTab(4);">
+						<div class="caption">
+							<h3>
+								Paytm
+							</h3>
+							<p>
+                <button class="btn btn-warning" onclick="dailyDeals(4)">Daily Deals</button>
+                <button class="btn btn-danger" onclick="newProducts(4)">New Products</button>
+                <button class="btn btn-info" onclick="liveUpdates('paytm')">Live Updates</button>
+							</p>
+              <marquee onmouseover="this.stop();" onmouseout="this.start();"><div id="paytm"></div></marquee>
+							<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FPaytm&width=200&layout=box_count&action=like&size=large&show_faces=false&share=false&height=65&appId" width="200" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="Bootstrap Thumbnail Third" src="./assets/shopclues.png" width="100" height="100" style="cursor:pointer" onclick="OpenInNewTab(5);">
+						<div class="caption">
+							<h3>
+								ShopClues
+							</h3>
+							<p>
+                <button class="btn btn-warning" onclick="dailyDeals(5)">Daily Deals</button>
+                <button class="btn btn-danger" onclick="newProducts(5)">New Products</button>
+                <button class="btn btn-info" onclick="liveUpdates('shopclues')">Live Updates</button>
+							</p>
+              <marquee onmouseover="this.stop();" onmouseout="this.start();"><div id="shopclues"></div></marquee>
+							<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FShopClues%2F&width=200&layout=box_count&action=like&size=large&show_faces=false&share=false&height=65&appId" width="200" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="Bootstrap Thumbnail First" src="./assets/infibeam.png" width="100" height="100" style="cursor:pointer" onclick="OpenInNewTab(6);">
+						<div class="caption">
+							<h3>
+								Infibeam
+							</h3>
+							<p>
+                <button class="btn btn-warning" onclick="dailyDeals(6)">Daily Deals</button>
+                <button class="btn btn-danger" onclick="newProducts(6)">New Products</button>
+                <button class="btn btn-info" onclick="liveUpdates('infibeam')">Live Updates</button>
+							</p>
+              <marquee onmouseover="this.stop();" onmouseout="this.start();"><div id="infibeam"></div></marquee>
+							<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Finfibeam&width=200&layout=box_count&action=like&size=large&show_faces=false&share=false&height=65&appId" width="200" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="Bootstrap Thumbnail Second" src="./assets/myntra.png" width="100" height="100" style="cursor:pointer" onclick="OpenInNewTab(7);">
+						<div class="caption">
+							<h3>
+								Myntra
+							</h3>
+							<p>
+                <button class="btn btn-warning" onclick="dailyDeals(7)">Daily Deals</button>
+                <button class="btn btn-danger" onclick="newProducts(7)">New Products</button>
+                <button class="btn btn-info" onclick="liveUpdates('myntra')">Live Updates</button>
+							</p>
+              <marquee onmouseover="this.stop();" onmouseout="this.start();"><div id="myntra"></div></marquee>
+							<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fmyntra&width=200&layout=box_count&action=like&size=large&show_faces=false&share=false&height=65&appId" width="200" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="Bootstrap Thumbnail Third" src="./assets/jabong.png" width="100" height="100" style="cursor:pointer" onclick="OpenInNewTab(8);">
+						<div class="caption">
+							<h3>
+								Jabong
+							</h3>
+							<p>
+                <button class="btn btn-warning" onclick="dailyDeals(8)">Daily Deals</button>
+                <button class="btn btn-danger" onclick="newProducts(8)">New Products</button>
+                <button class="btn btn-info" onclick="liveUpdates('jabong')">Live Updates</button>
+							</p>
+              <marquee onmouseover="this.stop();" onmouseout="this.start();"><div id="jabong"></div></marquee>
+							<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fmyjabong%2F&width=200&layout=box_count&action=like&size=large&show_faces=false&share=false&height=65&appId" width="200" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="Bootstrap Thumbnail First" src="./assets/indiatimes.png" width="100" height="100" style="cursor:pointer" onclick="OpenInNewTab(9);">
+						<div class="caption">
+							<h3>
+								IndiaTimes
+							</h3>
+							<p>
+                <button class="btn btn-warning" onclick="dailyDeals(9)">Daily Deals</button>
+                <button class="btn btn-danger" onclick="newProducts(9)">New Products</button>
+                <button class="btn btn-info" onclick="liveUpdates('indiatimes')">Live Updates</button>
+							</p>
+              <marquee onmouseover="this.stop();" onmouseout="this.start();"><div id="indiatimes"></div></marquee>
+							<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fwwwshoppingindiatimescom-379483325400%2F&width=200&layout=box_count&action=like&size=large&show_faces=false&share=false&height=65&appId" width="200" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="Bootstrap Thumbnail Second" src="./assets/newta.jpg" width="115" height="80" style="cursor:pointer" onclick="OpenInNewTab(10);">
+						<div class="caption">
+							<h3>
+								TataCliq
+							</h3>
+              <p>
+                <button class="btn btn-warning" onclick="dailyDeals(10)">Daily Deals</button>
+                <button class="btn btn-danger" onclick="newProducts(10)">New Products</button>
+                <button class="btn btn-info" onclick="liveUpdates('tatacliq')">Live Updates</button>
+              </p>
+              <marquee onmouseover="this.stop();" onmouseout="this.start();"><div id="tatacliq"></div></marquee>
+							<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTataCLiQ%2F&width=200&layout=box_count&action=like&size=large&show_faces=false&share=false&height=65&appId" width="200" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img alt="Bootstrap Thumbnail Third" src="./assets/homeshop18_150.jpg" width="100" height="100" style="cursor:pointer" onclick="OpenInNewTab(11);">
+						<div class="caption">
+							<h3>
+								HomeShop18
+							</h3>
+							<p>
+                <button class="btn btn-warning" onclick="dailyDeals(11)">Daily Deals</button>
+                <button class="btn btn-danger" onclick="newProducts(11)">New Products</button>
+                <button class="btn btn-info" onclick="liveUpdates('homeshop18')">Live Updates</button>
+							</p>
+              <marquee onmouseover="this.stop();" onmouseout="this.start();"><div id="homeshop18"></div></marquee>
+							<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fhomeshop18&width=200&layout=box_count&action=like&size=large&show_faces=false&share=false&height=65&appId" width="200" height="65" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+						</div>
+					</div>
+				</div>
+        <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">May I help You</h4>
+        </div>
+        <div class="modal-body">
+          <p>Follow the below steps to search a product </p>
+          <p>1. Enter the name of product that you want to search in the given box</p>
+          <p>2 .Click on the thumbnail of site that you want to visit</p>
+          <p>3 .Done!!! the page will be opened in a new tab</p>
+          <p>Happy Shopping !!!</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>
